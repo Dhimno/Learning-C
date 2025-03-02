@@ -1,7 +1,7 @@
 /*Nama File 	: kallSS.c*/
 /*Deskripsi 	: Mengoperasikan kedua input integer berdasarkan pilihan opsi yang disajikan*/
 /*Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi>*/
-/*Tgl Pembuatan	: <01-03-2025 dan 22:23>*/
+/*Tgl Pembuatan	: <01-03-2025 dan 22:40>*/
 
 #include <stdio.h> /*header file*/
 
