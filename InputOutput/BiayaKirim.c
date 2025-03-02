@@ -1,7 +1,7 @@
 /* Nama File 	: BiayaKirim.c */
 /* Deskripsi 	: Menghitung dan menampilkan biaya pengiriman barang berdasarkan berat dan jarak */
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
-/* Tgl Pembuatan	: <02-03-2025 dan 21:05> */
+/* Tgl Pembuatan	: <02-03-2025 dan 21:20> */
 
 #include <stdio.h> /*Header file utama*/
 

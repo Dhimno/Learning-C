@@ -1,7 +1,7 @@
 /* Nama File 	: luasKellLayang.c */
 /* Deskripsi 	: Menghitung dan menampilkan luas layang-layang dan kelilingnya */
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
-/* Tgl Pembuatan	: <02-03-2025 dan 21:05> */
+/* Tgl Pembuatan	: <02-03-2025 dan 21:17> */
 
 #include <stdio.h> /*Header file utama*/
 

@@ -1,7 +1,7 @@
 /* Nama File 	: gayaSentr.c */
 /* Deskripsi 	: Menghitung dan menampilkan hasil gaya yang terjadi */
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
-/* Tgl Pembuatan	: <02-03-2025 dan 21:05> */
+/* Tgl Pembuatan	: <01-03-2025 dan 21:11> */
 
 #include <stdio.h> /*Header file utama*/
 
