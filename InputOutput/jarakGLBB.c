@@ -1,20 +1,20 @@
-// Nama File 	: jarakGLBB.c
-// Deskripsi 	: Menghitung dan menampilkan jarak yang ditempuh oleh benda yang mengalami gerak lurus berubah beraturan
-// Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi>
-// Tgl Pembuatan	: <02-03-2025 dan 21:05>
+/* Nama File 	: jarakGLBB.c */
+/* Deskripsi 	: Menghitung dan menampilkan jarak yang ditempuh oleh benda yang mengalami gerak lurus berubah beraturan */
+/* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
+/* Tgl Pembuatan	: <02-03-2025 dan 21:05> */
 
-#include <stdio.h> // Header file utama
+#include <stdio.h> /*Header file utama*/
 
-// Program Utama
-int main(){
-
-// Kamus
+/* Program Utama */
+int main()
+{
+/*Kamus*/
     int V0;
     int t;
     int a;
     float s;
 
-// Algoritma
+/*Algoritma*/
     printf("=================================\n");
     printf("Penghitung jarak dari benda GLBB\n");
     printf("=================================\n");

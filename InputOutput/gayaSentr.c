@@ -1,20 +1,20 @@
-// Nama File 	: gayaSentr.c
-// Deskripsi 	: Menghitung dan menampilkan hasil gaya yang terjadi
-// Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi>
-// Tgl Pembuatan	: <02-03-2025 dan 21:05>
+/* Nama File 	: gayaSentr.c */
+/* Deskripsi 	: Menghitung dan menampilkan hasil gaya yang terjadi */
+/* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
+/* Tgl Pembuatan	: <02-03-2025 dan 21:05> */
 
-#include <stdio.h> // Header file utama
+#include <stdio.h> /*Header file utama*/
 
-// Program Utama
-int main(){
-
-// Kamus
+/* Program Utama */
+int main()
+{
+/*Kamus*/
     int m;
     int v;
     int r;
     float f;
 
-// Algoritma
+/*Algoritma*/
     printf("====================================\n");
     printf("Penghitung Gaya yang terjadi pada benda\n");
     printf("====================================\n");

@@ -1,18 +1,18 @@
-// Nama File 	: luasKellLayang.c
-// Deskripsi 	: Menghitung dan menampilkan luas layang-layang dan kelilingnya
-// Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi>
-// Tgl Pembuatan	: <02-03-2025 dan 21:05>
+/* Nama File 	: luasKellLayang.c */
+/* Deskripsi 	: Menghitung dan menampilkan luas layang-layang dan kelilingnya */
+/* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
+/* Tgl Pembuatan	: <02-03-2025 dan 21:05> */
 
-#include <stdio.h> // Header file utama
+#include <stdio.h> /*Header file utama*/
 
-// Program Utama
-int main(){
-
-// Kamus
+/* Program Utama */
+int main()
+{
+/*Kamus*/
     int s1,s2,d1,d2,kell;
     float Luas;
 
-// Algoritma
+/*Algoritma*/
     printf("===========================================\n");
     printf("Penghitung luas dan keliling layang-layang\n");
     printf("===========================================\n");
