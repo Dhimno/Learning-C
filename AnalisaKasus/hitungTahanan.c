@@ -24,7 +24,7 @@ int main()
   scanf("%d", &z);
 
 if (x >= 0 && y >= 0 && z >= 0){
-      printf("Jadi total tahanan adalaha %d", x+y+z);
+      printf("Jadi total tahanan adalah %d", x+y+z);
   } else {
     printf("Masukan tahanan tidak boleh negatif");
   }

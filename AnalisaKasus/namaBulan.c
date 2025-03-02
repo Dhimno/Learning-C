@@ -32,7 +32,7 @@ int main()
     printf("April");
     break;
   case 5:
-    printf("May");
+    printf("Mei");
     break;
   case 6:
     printf("Juni");
