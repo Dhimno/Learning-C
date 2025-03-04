@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/dhimno/Documents/GitHub/Learning-C/Pertemuan 1",
-      "program": "/Users/dhimno/Documents/GitHub/Learning-C/Pertemuan 1/build/Debug/outDebug"
+      "cwd": "/Users/dhimno/Documents/GitHub/Learning-C/Perulangan",
+      "program": "/Users/dhimno/Documents/GitHub/Learning-C/Perulangan/build/Debug/outDebug"
     }
   ]
 }
