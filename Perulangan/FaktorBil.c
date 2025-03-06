@@ -1,5 +1,5 @@
 /* Nama File 	: FaktorBil.c */
-/* Deskripsi 	: Menghitug dan menampilkan faktor dari suatu bilangan*/
+/* Deskripsi 	: Menghitung dan menampilkan faktor dari suatu bilangan*/
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
 /* Tgl Pembuatan	: <04-03-2025 dan 08:39> */
 
