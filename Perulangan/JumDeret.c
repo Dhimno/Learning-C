@@ -19,7 +19,7 @@ int main() {
     printf("Masukkan nilai N: ");
     scanf("%d", &n);
 
-    if (n <= 0){0
+    if (n <= 0){
         printf("Masukan harus diatas 0");
     } else {
         while (i <= n) { 

@@ -1,5 +1,5 @@
-/* Nama File 	: JumDeret.c */
-/* Deskripsi 	: Menghitung dan menampilkan jumlah total deret bilangan ke-N */
+/* Nama File 	: FaktorBil.c */
+/* Deskripsi 	: Menghitug dan menampilkan faktor dari suatu bilangan*/
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
 /* Tgl Pembuatan	: <04-03-2025 dan 08:39> */
 
@@ -9,22 +9,29 @@
 int main() {
     /* Kamus */
     int n; 
-    int i = 1; 
-    int sum = 0; 
+    int i = 1;
 
 /* Algoritma */
     printf("========================================\n");
-    printf("Penghitung jumlah total deret ke-N\n");
+    printf("Penghitung faktor dari bilangan N\n");
     printf("========================================\n");
     printf("Masukkan nilai N: ");
     scanf("%d", &n);
 
-    while (i <= n) { 
-        sum += i;    
-        i++;
+    printf("Jadi faktor dari %d adalah: ", n);
+    if (i <= 0){
+        printf("Masukan harus diatas 0");
+    } else {
+        while (i <= n)
+        {
+            if (n%i==0){
+                printf("%d, ", i);
+                i++;
+            } else {
+                i++;
+            }
+        }
     }
-
-    printf("Jumlah total deret ke-%d adalah: %d\n", n, sum);
 
     return 0;
 }
