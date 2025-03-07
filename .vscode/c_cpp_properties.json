@@ -1,14 +1,14 @@
 {
   "configurations": [
     {
-      "name": "windows-gcc-x86",
+      "name": "macos-gcc-arm64",
       "includePath": [
         "${workspaceFolder}/**"
       ],
       "compilerPath": "gcc ",
       "cStandard": "${default}",
       "cppStandard": "c++11",
-      "intelliSenseMode": "windows-gcc-x86",
+      "intelliSenseMode": "macos-gcc-arm64",
       "compilerArgs": [
         ""
       ]
