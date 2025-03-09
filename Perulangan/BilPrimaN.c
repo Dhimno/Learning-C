@@ -1,31 +1,14 @@
 /* Nama File 	: BilPrimaN.c */
-/* Deskripsi 	: Menampilkan semua bilangan prima sampai bilangan ke N*/
+/* Deskripsi 	: Menampilkan semua bilangan prima sampai bilangan ke N tanpa fungsi terpisah */
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
 /* Tgl Pembuatan	: <04-03-2025 dan 08:39> */
 
 #include <stdio.h> /* Header file utama */
 
-int isPrima(int num) { /* Fungsi pembantu */
-    int i;
-    int counter = 0;
-
-    if (num < 2) return 0;
-
-    i = 1;
-    while (i <= num) {
-        if (num % i == 0) {
-            counter++;
-        }
-        i++;
-    }
-
-    return (counter == 2);
-}
-
 /* Program Utama */
 int main() {
     /* Kamus */
-    int N, i = 2;
+    int N, i, j, counter;
 
     /* Algoritma */
     printf("========================================\n");
@@ -38,8 +21,17 @@ int main() {
         printf("Masukan harus lebih dari 0\n");
     } else {
         printf("Bilangan Primanya adalah: ");
+        i = 2;
         while (i <= N) {
-            if (isPrima(i)) {
+            counter = 0;
+            j = 1;
+            while (j <= i) {
+                if (i % j == 0) {
+                    counter++;
+                }
+                j++;
+            }
+            if (counter == 2) {
                 printf("%d ", i);
             }
             i++;
@@ -49,4 +41,3 @@ int main() {
 
     return 0;
 }
-
