@@ -5,25 +5,11 @@
 
 #include <stdio.h> /* Header file utama */
 
-int isSempurna(int num) { /* Fungsi pembantu */
-    int i = 1; 
-    int sum = 0;
-
-    while (i < num) {
-        if (num % i == 0) {
-            sum += i;
-        }
-        i++;
-    }
-
-    return (sum == num);
-}
-
 /* Program Utama */
 int main() {
     /* Kamus */
-    int N, i = 2;
-
+    int N, i = 2, j, sum;
+    
     /* Algoritma */
     printf("========================================\n");
     printf("Mencetak Bilangan Sempurna hingga N\n");
@@ -36,13 +22,21 @@ int main() {
     } else {
         printf("Bilangan Sempurna hingga %d adalah: ", N);
         while (i <= N) {
-            if (isSempurna(i)) {
+            sum = 0;
+            j = 1;
+            while (j < i) {
+                if (i % j == 0) {
+                    sum += j;
+                }
+                j++;
+            }
+            if (sum == i) {
                 printf("%d ", i);
             }
             i++;
         }
         printf("\n");
     }
-
+    
     return 0;
 }
