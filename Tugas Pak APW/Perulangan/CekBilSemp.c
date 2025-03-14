@@ -9,8 +9,8 @@
 int main() {
     /* Kamus */
     int n;
-    int i = 1;
-    int sum = 0; 
+    int i;
+    int sum; 
 
     /* Algoritma */
     printf("========================================\n");
@@ -22,6 +22,8 @@ int main() {
     if (n <= 0) {
         printf("Masukan harus lebih dari 0\n");
     } else {
+        i = 1;
+        sum = 0;
         while (i < n) {
             if (n % i == 0) {
                 sum += i;

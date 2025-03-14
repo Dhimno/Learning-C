@@ -9,7 +9,7 @@
 int main() {
     /* Kamus */
     int n; 
-    int i = 1;
+    int i;
 
 /* Algoritma */
     printf("========================================\n");
@@ -19,13 +19,13 @@ int main() {
     scanf("%d", &n);
 
     printf("Jadi faktor dari %d adalah: ", n);
-    if (i <= 0){
+    if (n <= 0){
         printf("Masukan harus diatas 0");
     } else {
-        while (i <= n)
+        for (i = 1; i <= n; i++)
         {
             if (n%i==0){
-                printf("%d, ", i);
+                printf("%d  ", i);
                 i++;
             } else {
                 i++;

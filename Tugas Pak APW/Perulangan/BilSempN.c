@@ -8,7 +8,7 @@
 /* Program Utama */
 int main() {
     /* Kamus */
-    int N, i = 2, j, sum;
+    int N, i, j, sum;
     
     /* Algoritma */
     printf("========================================\n");
@@ -20,6 +20,7 @@ int main() {
     if (N <= 0) {
         printf("Masukan harus lebih dari 0\n");
     } else {
+        i = 2;
         printf("Bilangan Sempurna hingga %d adalah: ", N);
         while (i <= N) {
             sum = 0;

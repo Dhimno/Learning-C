@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/dhimno/Documents/GitHub/Learning-C/Praktikum/Praktikum3 (Perulangan)",
-      "program": "/Users/dhimno/Documents/GitHub/Learning-C/Praktikum/Praktikum3 (Perulangan)/build/Debug/outDebug"
+      "cwd": "/Users/dhimno/Documents/GitHub/Learning-C/Tugas Pak APW/Perulangan",
+      "program": "/Users/dhimno/Documents/GitHub/Learning-C/Tugas Pak APW/Perulangan/build/Debug/outDebug"
     }
   ]
 }
