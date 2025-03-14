@@ -1,7 +1,7 @@
 /* Nama File 	: FaktorBil.c */
 /* Deskripsi 	: Menghitung dan menampilkan faktor dari suatu bilangan*/
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
-/* Tgl Pembuatan	: <04-03-2025 dan 08:39> */
+/* Tgl Pembuatan	: <04-03-2025 dan 08:43> */
 
 #include <stdio.h> /* Header file utama */
 
