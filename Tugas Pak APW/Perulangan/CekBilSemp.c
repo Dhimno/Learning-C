@@ -1,7 +1,7 @@
 /* Nama File 	: CekBilSemp.c */
 /* Deskripsi 	: Mengecek apakah suatu bilangan merupakan bilangan sempurna*/
 /* Pembuat   	: <24060124120010 - Dhimas Reza Nafi Wahyudi> */
-/* Tgl Pembuatan	: <04-03-2025 dan 08:39> */
+/* Tgl Pembuatan	: <04-03-2025 dan 08:50> */
 
 #include <stdio.h> /* Header file utama */
 
@@ -24,6 +24,8 @@ int main() {
     if (n <= 0) {
         printf("Masukan harus lebih dari 0\n");
     } else {
+        i = 1;
+        sum = 0;
         while (i < n) {
             if (n % i == 0) {
                 sum += i;
