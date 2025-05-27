@@ -9,10 +9,12 @@
 int main() {
     /* Kamus */
     int n;
-    int i = 1;
-    int counter = 0;
+    int i;
+    int counter;
 
     /* Algoritma */
+    i = 1;
+    counter = 0;
     printf("========================================\n");
     printf("Pengecek bilangan prima\n");
     printf("========================================\n");

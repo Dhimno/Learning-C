@@ -3,11 +3,22 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/dhimno/Documents/GitHub/Learning-C/Perulangan",
-      "program": "/Users/dhimno/Documents/GitHub/Learning-C/Perulangan/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/DIMAS/Documents/Github/Learning-C/Perulangan",
+      "program": "c:/Users/DIMAS/Documents/Github/Learning-C/Perulangan/build/Debug/outDebug",
+      "MIMode": "lldb",
+      "miDebuggerPath": "lldb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }

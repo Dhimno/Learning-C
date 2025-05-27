@@ -9,10 +9,12 @@
 int main() {
     /* Kamus */
     int n;
-    int i = 1;
-    int sum = 0; 
+    int i;
+    int sum; 
 
     /* Algoritma */
+    i = 1;
+    sum = 0;
     printf("========================================\n");
     printf("Pengecek Bilangan Sempurna\n");
     printf("========================================\n");
