@@ -19,20 +19,16 @@ int main() {
     scanf("%d", &n);
 
     printf("Jadi faktor dari %d adalah: ", n);
-    if (n <= 0){
-        printf("Masukan harus diatas 0");
-    } else {
-        for (i = 1; i <= n; i++)
-        {
-            if (n%i==0){
-                printf("%d  ", i);
-                i++;
-            } else {
-                i++;
-            }
-        }
+    if (n <= 0) {
+        printf("Masukan harus diatas 0\n");
+    } else { // N > 0
+        for (i = 1; i <= n;) {   
+            if (n % i == 0){
+               printf(" %d\n", i);
+           }
+           i++;      
+       }   
     }
-
     return 0;
 }
 

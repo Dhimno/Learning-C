@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/dhimno/Downloads/Tugas Sudah Selesai/24060124120010_Dhimas Reza Nafi Wahyudi_E",
+      "program": "/Users/dhimno/Downloads/Tugas Sudah Selesai/24060124120010_Dhimas Reza Nafi Wahyudi_E/build/Debug/outDebug"
+    }
+  ]
+}

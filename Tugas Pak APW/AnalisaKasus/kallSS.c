@@ -14,12 +14,13 @@ int main()
 
   /*Algoritma*/
   printf("========================================\n");
-  printf("Kalk-SS\n");
+  printf("Kall-SS\n");
   printf("========================================\n");
   printf("Masukkan angka pertama yang anda inginkan: ");
   scanf("%d", &iA);
   printf("Masukkan angka Kedua yang anda inginkan: ");
   scanf("%d", &iB);
+  printf("a. Penambahan\nb. Pengurangan\nc. Perkalian\nd. Pembagian\ne. Div\nf. Mod\n");
   printf("Masukkan Kode Program yang anda inginkan: ");
   scanf(" %c", &program);  
   switch (program)
@@ -28,7 +29,7 @@ int main()
     printf("Hasil penambahan adalah %d", iA + iB);
     break;
   case 'b':
-    printf("Hasil penguranan adalah %d", iA - iB);
+    printf("Hasil pengurangan adalah %d", iA - iB);
     break;
   case 'c':
     printf("Hasil perkalian adalah %d", iA * iB);

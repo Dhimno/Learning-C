@@ -31,6 +31,7 @@ int main() {
 
     printf("Jumlah total deret ke-%d adalah: %d\n", n, sum);
 
+    
     return 0;
 }
 

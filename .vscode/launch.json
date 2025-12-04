@@ -6,6 +6,7 @@
       "type": "cppdbg",
       "request": "launch",
       "args": [],
+<<<<<<< Updated upstream
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/DIMAS/Documents/Github/Learning-C/Perulangan",
@@ -19,6 +20,10 @@
           "ignoreFailures": true
         }
       ]
+=======
+      "cwd": "/Users/dhimno/Downloads/anjay",
+      "program": "/Users/dhimno/Downloads/anjay/build/Debug/outDebug"
+>>>>>>> Stashed changes
     }
   ]
 }
